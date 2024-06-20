@@ -15,13 +15,19 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     body { background-color: #D5E1EF;}
     main{
-      align-content: center;
-      justify-items: center;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
     }
     .center{
-      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
-    #component { background-color: white;
+    #component {
+      vertical-align: baseline;
+      background-color: white;
       max-width: 320px;
       text-align: center;
       border-radius: 10px;
