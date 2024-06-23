@@ -25,7 +25,7 @@ I'm excited to keep completing challenges and see where it takes me, after all I
 
 ### Links
 
-- Temporary URL URL: [Add solution URL here](https://henryapm.github.io)
+- Temporary URL URL: [https://henryapm.github.io]
 
 ## My process
 
