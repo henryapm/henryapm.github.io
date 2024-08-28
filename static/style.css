@@ -49,6 +49,31 @@ section.profile{
   align-items: end;
 }
 
+section.header{
+  padding: 6rem 0;
+  border-top: 1px solid black;
+}
+
+section.header p{
+  margin-top: 20px;
+}
+
+section.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding-bottom: 6rem;
+}
+
+article{
+  background-color: grey;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
 .profile{
   padding-bottom: 6rem;
   border-bottom: 1px solid black;
@@ -104,13 +129,6 @@ h1{
 h5{
   font-size: 20px;
   color: var(--brown);
-}
-
-.container .latest-work{
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 5rem 0;
 }
 
 .center{
